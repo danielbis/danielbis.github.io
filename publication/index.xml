@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Daniel Bis</title>
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Publications</title>
+      <link>/publication/</link>
+    </image>
+    
+    <item>
+      <title>Biomedical word sense disambiguation with bidirectional long short-term memory and attention-based neural networks</title>
+      <link>/publication/wsd_journal/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/wsd_journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Analysis on the Learning Rules of the Skip-Gram Model</title>
+      <link>/publication/conference-paper/</link>
+      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/conference-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Layered Multistep Bidirectional Long Short-Term Memory Networks for Biomedical Word Sense Disambiguation</title>
+      <link>/publication/skipgram/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/skipgram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing Prediction Models for One-Year Mortality in Patients with Acute Myocardial Infarction and Post Myocardial Infarction Syndrome</title>
+      <link>/publication/heart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/heart/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiang Bian | Daniel Bis</title>
+    <link>/authors/jiang-bian/</link>
+      <atom:link href="/authors/jiang-bian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jiang Bian</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Jiang Bian</title>
+      <link>/authors/jiang-bian/</link>
+    </image>
+    
+    <item>
+      <title>Enhancing Prediction Models for One-Year Mortality in Patients with Acute Myocardial Infarction and Post Myocardial Infarction Syndrome</title>
+      <link>/publication/heart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/heart/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
