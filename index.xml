@@ -77,6 +77,14 @@
     </item>
     
     <item>
+      <title>Effects of Architecture and Training on Embedding Geometry and Feature Discriminability in BERT</title>
+      <link>/publication/conference-paper/</link>
+      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/conference-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Biomedical word sense disambiguation with bidirectional long short-term memory and attention-based neural networks</title>
       <link>/publication/wsd_journal/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
@@ -86,9 +94,9 @@
     
     <item>
       <title>An Analysis on the Learning Rules of the Skip-Gram Model</title>
-      <link>/publication/conference-paper/</link>
+      <link>/publication/bert_geo/</link>
       <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
+      <guid>/publication/bert_geo/</guid>
       <description></description>
     </item>
     

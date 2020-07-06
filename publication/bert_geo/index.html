@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Ph.D. Student">
+  <meta name="description" content="In this work, we derive the learning rules for the skip-gram model and establish their close relationship to competitive learning. In addition, we provide the global optimal solution constraints for the skip-gram model and validate them by experimental results.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/authors/">
+  <link rel="alternate" hreflang="en-us" href="/publication/bert_geo/">
 
   
 
@@ -210,14 +210,12 @@
 
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Daniel Bis">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/authors/">
+  <link rel="canonical" href="/publication/bert_geo/">
 
   
   
@@ -231,18 +229,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Daniel Bis">
-  <meta property="og:url" content="/authors/">
-  <meta property="og:title" content="Authors | Daniel Bis">
-  <meta property="og:description" content="Ph.D. Student"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="/publication/bert_geo/">
+  <meta property="og:title" content="An Analysis on the Learning Rules of the Skip-Gram Model | Daniel Bis">
+  <meta property="og:description" content="In this work, we derive the learning rules for the skip-gram model and establish their close relationship to competitive learning. In addition, we provide the global optimal solution constraints for the skip-gram model and validate them by experimental results."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-07-14T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2017-01-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-07-14T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/bert_geo/"
+  },
+  "headline": "An Analysis on the Learning Rules of the Skip-Gram Model",
+  
+  "datePublished": "2017-01-01T00:00:00Z",
+  "dateModified": "2019-07-14T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Canlin Zhang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Daniel Bis",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "In this work, we derive the learning rules for the skip-gram model and establish their close relationship to competitive learning. In addition, we provide the global optimal solution constraints for the skip-gram model and validate them by experimental results."
+}
+</script>
+
+  
 
   
 
@@ -250,10 +291,13 @@
   
 
 
+  
 
 
 
-  <title>Authors | Daniel Bis</title>
+
+
+  <title>An Analysis on the Learning Rules of the Skip-Gram Model | Daniel Bis</title>
 
 </head>
 
@@ -536,6 +580,91 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>An Analysis on the Learning Rules of the Skip-Gram Model</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/canlin-zhang/">Canlin Zhang</a></span>, <span><a href="/authors/xiuwen-liu/">Xiuwen Liu</a></span>, <span><a href="/authors/admin/">Daniel Biś</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July 2019
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -545,69 +674,385 @@
 
 
 
-
-
-
-
-
-
-  
-
-  
-  
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
 
-  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2003.08489.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/bert_geo/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  <ul>
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract">To improve the generalization of the representations for natural language processing tasks, words are commonly represented using vectors, where distances among the vectors are related to the similarity of the words. While word2vec, the state-of-the-art implementation of the skip-gram model, is widely used and improves the performance of many natural language processing tasks, its mechanism is not yet well understood. In this work, we derive the learning rules for the skip-gram model and establish their close relationship to competitive learning. In addition, we provide the global optimal solution constraints for the skip-gram model and validate them by experimental results.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Source Themes Conference</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/source-themes/">Source Themes</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
       
-      <li><a href="/authors/admin/">Daniel Biś</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/bert_geo/&amp;text=An%20Analysis%20on%20the%20Learning%20Rules%20of%20the%20Skip-Gram%20Model" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
       
-      <li><a href="/authors/jinglun-cai/">Jinglun Cai</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/bert_geo/&amp;t=An%20Analysis%20on%20the%20Learning%20Rules%20of%20the%20Skip-Gram%20Model" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
     
       
-      <li><a href="/authors/kobra-amirizirtol/">Kobra Amirizirtol</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=An%20Analysis%20on%20the%20Learning%20Rules%20of%20the%20Skip-Gram%20Model&amp;body=/publication/bert_geo/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
     
       
-      <li><a href="/authors/maksim-podkorytov/">Maksim Podkorytov</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/bert_geo/&amp;title=An%20Analysis%20on%20the%20Learning%20Rules%20of%20the%20Skip-Gram%20Model" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
     
       
-      <li><a href="/authors/xiuwen-liu/">Xiuwen Liu</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=An%20Analysis%20on%20the%20Learning%20Rules%20of%20the%20Skip-Gram%20Model%20/publication/bert_geo/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
     
       
-      <li><a href="/authors/canlin-zhang/">Canlin Zhang</a></li>
-    
       
-      <li><a href="/authors/zhe-he/">Zhe He</a></li>
-    
       
-      <li><a href="/authors/jiang-bian/">Jiang Bian</a></li>
-    
+        
       
-      <li><a href="/authors/laura-a-barrett/">Laura A Barrett</a></li>
-    
       
-      <li><a href="/authors/seyedeh-neelufar-payrovnaziri/">Seyedeh Neelufar Payrovnaziri</a></li>
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/bert_geo/&amp;title=An%20Analysis%20on%20the%20Learning%20Rules%20of%20the%20Skip-Gram%20Model" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/canlin-zhang/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/xiuwen-liu/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu1f67d00926d86a46008adc4fda3bdd7b_57578_270x270_fill_q90_lanczos_center.jpg" alt="Daniel Biś">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">Daniel Biś</a></h5>
+      <h6 class="card-subtitle">Ph.D. Student</h6>
+      <p class="card-text">My research interests include Natural Language Processing, Deep Learning and Artificial Intelligence in general.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/daniel-bis-cs/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=ArMgXHYAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/danielbis" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
 
   
 
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/conference-paper/">Effects of Architecture and Training on Embedding Geometry and Feature Discriminability in BERT</a></li>
+      
+      <li><a href="/publication/skipgram/">Layered Multistep Bidirectional Long Short-Term Memory Networks for Biomedical Word Sense Disambiguation</a></li>
+      
+      <li><a href="/publication/heart/">Enhancing Prediction Models for One-Year Mortality in Patients with Acute Myocardial Infarction and Post Myocardial Infarction Syndrome</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
 </div>
 
       
