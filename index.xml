@@ -77,18 +77,18 @@
     </item>
     
     <item>
-      <title>Effects of Architecture and Training on Embedding Geometry and Feature Discriminability in BERT</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
+      <title>Too Much in Common: Shifting of Embeddings in Transformer Language Models and its Implications</title>
+      <link>/publication/tmic/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/tmic/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Too Much in Common: Shifting of Embeddings in Transformer Language Models and its Implications</title>
-      <link>/publication/tmic/</link>
+      <title>Effects of Architecture and Training on Embedding Geometry and Feature Discriminability in BERT</title>
+      <link>/publication/conference-paper/</link>
       <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/tmic/</guid>
+      <guid>/publication/conference-paper/</guid>
       <description></description>
     </item>
     
